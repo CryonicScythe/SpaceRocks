@@ -16,4 +16,8 @@ with(other){
 			create.sprite_index = spr_rock_small
 		}
 	}
+	
+	repeat(10){
+		instance_create_layer(x, y, "Instance", obj_debris)
+	}
 }
