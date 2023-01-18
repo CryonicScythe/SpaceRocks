@@ -19,4 +19,4 @@ if(keyboard_check_pressed(vk_space)){
 	inst.direction = image_angle;
 }
 
-move_wrap(true, true, sprite_width/2)
+move_wrap(true, true, sprite_width/2);
