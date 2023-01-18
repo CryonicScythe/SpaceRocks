@@ -13,7 +13,9 @@ if(keyboard_check(vk_up)){
 }
 
 if(keyboard_check_pressed(vk_space)){
-	var inst = instance_activate_layer(x, y, "Instances", obj_bullet);
+	var x_adj = cos(degtorad(image_angle)) * sprite_index/2
+	var y_adj = -sin(degtorad(image_angle)) * sprite_index/2
+	var inst = instance_create_layer(x + x_adj, y + y_adj, "Instance", obj_bullet);
 	inst.direction = image_angle;
 }
 
