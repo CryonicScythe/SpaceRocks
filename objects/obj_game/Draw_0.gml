@@ -50,11 +50,11 @@ SPACE: shoot
 			3, 3, 0, c, c, c, c, 1
 		);
 		draw_text(
-			room_width/2, 250,
+			room_width/2, 300,
 			"FINAL SCORE" + string(score)
 		);
 		draw_text(
-			room_width/2, 300,
+			room_width/2, 400,
 			"PRESS ENTER TO RESTART"
 		);
 		draw_set_halign(fa_left)
