@@ -1,5 +1,9 @@
 /// @description
 
+with(obj_game){
+	alarm[1] = room_speed;
+}
+
 if(keyboard_check(vk_left)){
 	image_angle += 5;
 }
