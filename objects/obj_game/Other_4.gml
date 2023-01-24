@@ -1,3 +1,7 @@
+if(room != rm_game){
+	exit;
+}
+
 if(room == rm_game){
 	repeat(6){
 		var xx = choose(
@@ -10,4 +14,6 @@ if(room == rm_game){
 		)
 		instance_create_layer(xx, yy, "Instance", obj_asteroid);
 	}
+	
+	alarm[0] = 60;
 }
