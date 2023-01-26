@@ -1,5 +1,5 @@
 if(room != rm_game){
-	exit;
+	audio_stop_sound(msc_song)
 }
 
 if(room == rm_game){
@@ -20,4 +20,8 @@ if(room == rm_game){
 	}
 	
 	alarm[0] = 60;
+} else{
+	if(audio_is_playing(msc_song)){
+		audio_stop_sound(msc_song)
+	}
 }

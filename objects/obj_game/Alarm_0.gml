@@ -1,3 +1,6 @@
+if (room != rm_game){
+exit	
+}
 if(choose(0, 1) == 0){
 	//down the side
 	var xx = choose(0, room_width);
