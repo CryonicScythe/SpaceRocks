@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":0,},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"sd_die","path":"sounds/sd_die/sd_die.yy",},"order":7,},
     {"id":{"name":"sd_hurt","path":"sounds/sd_hurt/sd_hurt.yy",},"order":1,},
