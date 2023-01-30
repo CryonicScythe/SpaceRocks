@@ -19,4 +19,4 @@ surface_resize(application_surface, displaywidth, displayheight);
 
 display_set_gui_size(camerawidth, cameraheight)
 
-alarm[0] = 1;
+alarm[0] = 15;
