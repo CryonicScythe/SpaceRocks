@@ -2,8 +2,13 @@ cameraX = 0;
 cameraY = 0;
 target = obj_ship;
 
+camerawidth = 1366;
+cameraheight = 768;
+
+if(room == rm_game){
 camerawidth = 1024;
 cameraheight = 576;
+}
 
 view_enabled = true;
 view_visible[0] = true;
